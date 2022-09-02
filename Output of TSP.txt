@@ -1,0 +1,30 @@
+The output for the First Example
+
+x[ (1, 3) ] = 1.0
+x[ (2, 5) ] = 1.0
+x[ (3, 4) ] = 1.0
+x[ (4, 2) ] = 1.0
+x[ (5, 1) ] = 1.0
+
+Start from Town(1) then go to Town(3). After that travel to Town(4) from Town(3). Then go to Town(2) from Town(4).
+After that travel to Town(5) from Town(2). Finally get back to Town(1).
+
+The minimum distance to visit all the Towns once is 668 Km.
+
+   217  +   113  +   201  +   79   +   58   = 668
+(1 to 3) (3 to 4) (4 to 2) (2 to 5) (5 to 1) 
+------------------------------------------------------------------------------------------------------------------
+The output for the Second Example
+
+x[ (1, 2) ] = 1.0
+x[ (2, 4) ] = 1.0
+x[ (3, 1) ] = 1.0
+x[ (4, 3) ] = 1.0
+
+Start from Town(1) then go to Town(2). After that travel to Town(4) from Town(2). Then go to Town(3) from Town(4).
+Finally get back to Town(1).
+
+The minimum distance to visit all the Towns once is 80 Km.
+
+   10   +   25   +   30   +   15    = 80
+(1 to 2) (2 to 4) (4 to 3) (3 to 1)
